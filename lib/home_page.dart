@@ -511,13 +511,6 @@ class AppDrawer extends StatelessWidget {
           ),
           SizedBox(height: 300,),
           ListTile(
-            contentPadding: EdgeInsets.only(left: 50),
-            title: Text('Staff Page', style: TextStyle(fontSize: 20, color: Color.fromRGBO(255, 255, 255, 1),),),
-            onTap: () {
-              Navigator.push(context, MaterialPageRoute(builder: (context) => StaffLoginPage()));
-            },
-          ),
-          ListTile(
             leading: Icon(Icons.logout_rounded, size: 25, color: Color.fromRGBO(255, 255, 255, 1),),
             contentPadding: EdgeInsets.only(left: 50),
             title: Text('Logout', style: TextStyle(fontSize: 20, color: Color.fromRGBO(255, 255, 255, 1),),),
